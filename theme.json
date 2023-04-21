@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                {"slug": "u-white", "color": "rgb(255,255,255)","name": "Udemy white"}
+            ],
+            "background": true,
+            "link": true,
+            "text": true
+            "custom": false
+            
+        
+        },
+        "blocks": {
+            "core/site-title":{
+                "color": {
+                    "defaultPalette": true,
+                    "palette": [
+                        {"slug": "w", "color": "rgb(255,255,255)","name": "MauTrang"}
+                    ],
+                    "link": true ,
+                    "custom": false                   
+                }
+            }
+        }
+    }
+}
